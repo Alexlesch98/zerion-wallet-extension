@@ -37,6 +37,7 @@ import { ListItemAnchor, ListItemLink } from 'src/ui/ui-kit/List/ListItem';
 import { UnstyledAnchor } from 'src/ui/ui-kit/UnstyledAnchor';
 import { StickyBottomPanel } from 'src/ui/ui-kit/BottomPanel';
 import { Button } from 'src/ui/ui-kit/Button';
+import { Spacer } from 'src/ui/ui-kit/Spacer';
 import { BackupFlowSettingsSection } from '../BackupWallet/BackupSettingsItem';
 import { Security } from '../Security';
 
@@ -174,6 +175,7 @@ function SettingsMain() {
             </HStack>
           </UIText>
         </VStack>
+        <Spacer height={16} />
         <StickyBottomPanel>
           <VStack gap={0} style={{ padding: 16 }}>
             <Button
